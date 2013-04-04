@@ -42,7 +42,7 @@ static ExtractVariable *mySharedPlugin = nil;
 		[NSEvent addLocalMonitorForEventsMatchingMask:NSKeyDownMask handler:^NSEvent *(NSEvent *event) {
 			unsigned short keyCode = [event keyCode];
 //            NSLog(@"keycode: %i", keyCode);
-            if (keyCode == 14)
+            if (keyCode == 9)
                 [self extractTheVariable];
             return event;
         }];
