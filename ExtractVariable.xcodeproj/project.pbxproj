@@ -7,37 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		303122AA1709A45500C71923 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303122A91709A45500C71923 /* Cocoa.framework */; };
+		300D9961170CC57500FFCB20 /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995A170CC57500FFCB20 /* Extractor.m */; };
+		300D9963170CC57500FFCB20 /* ExtractorClassInObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995C170CC57500FFCB20 /* ExtractorClassInObject.m */; };
+		300D9965170CC57500FFCB20 /* ExtractorPropertyOfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995E170CC57500FFCB20 /* ExtractorPropertyOfObject.m */; };
+		300D9967170CC57500FFCB20 /* ExtractorSimpleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D9960170CC57500FFCB20 /* ExtractorSimpleInstance.m */; };
+		300D996B170CC5B000FFCB20 /* MainExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D9969170CC5B000FFCB20 /* MainExtractor.m */; };
+		300D998C170CC7DE00FFCB20 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D9946170CC53D00FFCB20 /* SenTestingKit.framework */; };
+		300D998D170CC7DE00FFCB20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D9974170CC77100FFCB20 /* Cocoa.framework */; };
+		300D9993170CC7DE00FFCB20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 300D9991170CC7DE00FFCB20 /* InfoPlist.strings */; };
+		300D9996170CC7DE00FFCB20 /* ExtractVariableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D9995170CC7DE00FFCB20 /* ExtractVariableTests.m */; };
+		300D999B170CC82300FFCB20 /* MainExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D9969170CC5B000FFCB20 /* MainExtractor.m */; };
+		300D999C170CC83000FFCB20 /* ExtractVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 303122BC1709A51000C71923 /* ExtractVariable.m */; };
+		300D999D170CC84000FFCB20 /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995A170CC57500FFCB20 /* Extractor.m */; };
+		300D999E170CC84400FFCB20 /* ExtractorClassInObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995C170CC57500FFCB20 /* ExtractorClassInObject.m */; };
+		300D999F170CC84700FFCB20 /* ExtractorPropertyOfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D995E170CC57500FFCB20 /* ExtractorPropertyOfObject.m */; };
+		300D99A0170CC84B00FFCB20 /* ExtractorSimpleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D9960170CC57500FFCB20 /* ExtractorSimpleInstance.m */; };
+		302C91FE170E02110007ADAA /* ReplacementCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C91FD170E02110007ADAA /* ReplacementCode.m */; };
+		302C91FF170E045D0007ADAA /* ReplacementCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C91FD170E02110007ADAA /* ReplacementCode.m */; };
 		303122B41709A45500C71923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 303122B21709A45500C71923 /* InfoPlist.strings */; };
+		303122BD1709A51000C71923 /* ExtractVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 303122BC1709A51000C71923 /* ExtractVariable.m */; };
+		3033A42F1709ACC3006525DB /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033A42E1709ACC3006525DB /* NSView+Dumping.m */; };
+		30A2FFE81709ABFD00A3037D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303122AC1709A45500C71923 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		303122A61709A45500C71923 /* ExtractVariable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtractVariable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		303122A91709A45500C71923 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		300D9946170CC53D00FFCB20 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		300D9948170CC53D00FFCB20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		300D9959170CC57500FFCB20 /* Extractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extractor.h; sourceTree = "<group>"; };
+		300D995A170CC57500FFCB20 /* Extractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extractor.m; sourceTree = "<group>"; };
+		300D995B170CC57500FFCB20 /* ExtractorClassInObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractorClassInObject.h; sourceTree = "<group>"; };
+		300D995C170CC57500FFCB20 /* ExtractorClassInObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractorClassInObject.m; sourceTree = "<group>"; };
+		300D995D170CC57500FFCB20 /* ExtractorPropertyOfObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractorPropertyOfObject.h; sourceTree = "<group>"; };
+		300D995E170CC57500FFCB20 /* ExtractorPropertyOfObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractorPropertyOfObject.m; sourceTree = "<group>"; };
+		300D995F170CC57500FFCB20 /* ExtractorSimpleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractorSimpleInstance.h; sourceTree = "<group>"; };
+		300D9960170CC57500FFCB20 /* ExtractorSimpleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractorSimpleInstance.m; sourceTree = "<group>"; };
+		300D9969170CC5B000FFCB20 /* MainExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExtractor.m; sourceTree = "<group>"; };
+		300D996A170CC5B000FFCB20 /* MainExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainExtractor.h; sourceTree = "<group>"; };
+		300D9974170CC77100FFCB20 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		300D9976170CC77100FFCB20 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		300D9977170CC77100FFCB20 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		300D9978170CC77100FFCB20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		300D998B170CC7DE00FFCB20 /* ExtractVariableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtractVariableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300D9990170CC7DE00FFCB20 /* ExtractVariableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtractVariableTests-Info.plist"; sourceTree = "<group>"; };
+		300D9992170CC7DE00FFCB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		300D9994170CC7DE00FFCB20 /* ExtractVariableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtractVariableTests.h; sourceTree = "<group>"; };
+		300D9995170CC7DE00FFCB20 /* ExtractVariableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtractVariableTests.m; sourceTree = "<group>"; };
+		300D9997170CC7DE00FFCB20 /* ExtractVariableTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtractVariableTests-Prefix.pch"; sourceTree = "<group>"; };
+		302C91FC170E02110007ADAA /* ReplacementCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplacementCode.h; sourceTree = "<group>"; };
+		302C91FD170E02110007ADAA /* ReplacementCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplacementCode.m; sourceTree = "<group>"; };
+		303122A61709A45500C71923 /* ExtractVariable.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtractVariable.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		303122AC1709A45500C71923 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		303122AD1709A45500C71923 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		303122AE1709A45500C71923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		303122B11709A45500C71923 /* ExtractVariable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtractVariable-Info.plist"; sourceTree = "<group>"; };
 		303122B31709A45500C71923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		303122B51709A45500C71923 /* ExtractVariable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtractVariable-Prefix.pch"; sourceTree = "<group>"; };
+		303122BB1709A51000C71923 /* ExtractVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractVariable.h; sourceTree = "<group>"; };
+		303122BC1709A51000C71923 /* ExtractVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractVariable.m; sourceTree = "<group>"; };
+		3033A42D1709ACC3006525DB /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
+		3033A42E1709ACC3006525DB /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		300D9987170CC7DE00FFCB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D998C170CC7DE00FFCB20 /* SenTestingKit.framework in Frameworks */,
+				300D998D170CC7DE00FFCB20 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		303122A31709A45500C71923 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303122AA1709A45500C71923 /* Cocoa.framework in Frameworks */,
+				30A2FFE81709ABFD00A3037D /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300D9958170CC57500FFCB20 /* Extractors */ = {
+			isa = PBXGroup;
+			children = (
+				300D9959170CC57500FFCB20 /* Extractor.h */,
+				300D995A170CC57500FFCB20 /* Extractor.m */,
+				300D995B170CC57500FFCB20 /* ExtractorClassInObject.h */,
+				300D995C170CC57500FFCB20 /* ExtractorClassInObject.m */,
+				300D995D170CC57500FFCB20 /* ExtractorPropertyOfObject.h */,
+				300D995E170CC57500FFCB20 /* ExtractorPropertyOfObject.m */,
+				300D995F170CC57500FFCB20 /* ExtractorSimpleInstance.h */,
+				300D9960170CC57500FFCB20 /* ExtractorSimpleInstance.m */,
+				302C91FC170E02110007ADAA /* ReplacementCode.h */,
+				302C91FD170E02110007ADAA /* ReplacementCode.m */,
+			);
+			path = Extractors;
+			sourceTree = "<group>";
+		};
+		300D998E170CC7DE00FFCB20 /* ExtractVariableTests */ = {
+			isa = PBXGroup;
+			children = (
+				300D9994170CC7DE00FFCB20 /* ExtractVariableTests.h */,
+				300D9995170CC7DE00FFCB20 /* ExtractVariableTests.m */,
+				300D998F170CC7DE00FFCB20 /* Supporting Files */,
+			);
+			path = ExtractVariableTests;
+			sourceTree = "<group>";
+		};
+		300D998F170CC7DE00FFCB20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300D9990170CC7DE00FFCB20 /* ExtractVariableTests-Info.plist */,
+				300D9991170CC7DE00FFCB20 /* InfoPlist.strings */,
+				300D9997170CC7DE00FFCB20 /* ExtractVariableTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3031229D1709A45500C71923 = {
 			isa = PBXGroup;
 			children = (
 				303122AF1709A45500C71923 /* ExtractVariable */,
+				300D998E170CC7DE00FFCB20 /* ExtractVariableTests */,
 				303122A81709A45500C71923 /* Frameworks */,
 				303122A71709A45500C71923 /* Products */,
 			);
@@ -46,7 +138,8 @@
 		303122A71709A45500C71923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				303122A61709A45500C71923 /* ExtractVariable.bundle */,
+				303122A61709A45500C71923 /* ExtractVariable.xcplugin */,
+				300D998B170CC7DE00FFCB20 /* ExtractVariableTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +147,11 @@
 		303122A81709A45500C71923 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				303122A91709A45500C71923 /* Cocoa.framework */,
+				303122AC1709A45500C71923 /* AppKit.framework */,
+				303122AE1709A45500C71923 /* Foundation.framework */,
+				300D9946170CC53D00FFCB20 /* SenTestingKit.framework */,
+				300D9948170CC53D00FFCB20 /* UIKit.framework */,
+				300D9974170CC77100FFCB20 /* Cocoa.framework */,
 				303122AB1709A45500C71923 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -63,9 +160,9 @@
 		303122AB1709A45500C71923 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				303122AC1709A45500C71923 /* AppKit.framework */,
-				303122AD1709A45500C71923 /* CoreData.framework */,
-				303122AE1709A45500C71923 /* Foundation.framework */,
+				300D9976170CC77100FFCB20 /* AppKit.framework */,
+				300D9977170CC77100FFCB20 /* CoreData.framework */,
+				300D9978170CC77100FFCB20 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -73,7 +170,14 @@
 		303122AF1709A45500C71923 /* ExtractVariable */ = {
 			isa = PBXGroup;
 			children = (
+				300D9969170CC5B000FFCB20 /* MainExtractor.m */,
+				300D996A170CC5B000FFCB20 /* MainExtractor.h */,
+				300D9958170CC57500FFCB20 /* Extractors */,
 				303122B01709A45500C71923 /* Supporting Files */,
+				303122BB1709A51000C71923 /* ExtractVariable.h */,
+				303122BC1709A51000C71923 /* ExtractVariable.m */,
+				3033A42D1709ACC3006525DB /* NSView+Dumping.h */,
+				3033A42E1709ACC3006525DB /* NSView+Dumping.m */,
 			);
 			path = ExtractVariable;
 			sourceTree = "<group>";
@@ -91,6 +195,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		300D998A170CC7DE00FFCB20 /* ExtractVariableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300D9998170CC7DE00FFCB20 /* Build configuration list for PBXNativeTarget "ExtractVariableTests" */;
+			buildPhases = (
+				300D9986170CC7DE00FFCB20 /* Sources */,
+				300D9987170CC7DE00FFCB20 /* Frameworks */,
+				300D9988170CC7DE00FFCB20 /* Resources */,
+				300D9989170CC7DE00FFCB20 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtractVariableTests;
+			productName = ExtractVariableTests;
+			productReference = 300D998B170CC7DE00FFCB20 /* ExtractVariableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		303122A51709A45500C71923 /* ExtractVariable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 303122B81709A45500C71923 /* Build configuration list for PBXNativeTarget "ExtractVariable" */;
@@ -105,7 +227,7 @@
 			);
 			name = ExtractVariable;
 			productName = ExtractVariable;
-			productReference = 303122A61709A45500C71923 /* ExtractVariable.bundle */;
+			productReference = 303122A61709A45500C71923 /* ExtractVariable.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -130,11 +252,20 @@
 			projectRoot = "";
 			targets = (
 				303122A51709A45500C71923 /* ExtractVariable */,
+				300D998A170CC7DE00FFCB20 /* ExtractVariableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		300D9988170CC7DE00FFCB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D9993170CC7DE00FFCB20 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		303122A41709A45500C71923 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,17 +276,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		300D9989170CC7DE00FFCB20 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		300D9986170CC7DE00FFCB20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300D9996170CC7DE00FFCB20 /* ExtractVariableTests.m in Sources */,
+				300D999B170CC82300FFCB20 /* MainExtractor.m in Sources */,
+				300D999C170CC83000FFCB20 /* ExtractVariable.m in Sources */,
+				300D999D170CC84000FFCB20 /* Extractor.m in Sources */,
+				300D999E170CC84400FFCB20 /* ExtractorClassInObject.m in Sources */,
+				300D999F170CC84700FFCB20 /* ExtractorPropertyOfObject.m in Sources */,
+				300D99A0170CC84B00FFCB20 /* ExtractorSimpleInstance.m in Sources */,
+				302C91FF170E045D0007ADAA /* ReplacementCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		303122A21709A45500C71923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303122BD1709A51000C71923 /* ExtractVariable.m in Sources */,
+				3033A42F1709ACC3006525DB /* NSView+Dumping.m in Sources */,
+				300D9961170CC57500FFCB20 /* Extractor.m in Sources */,
+				300D9963170CC57500FFCB20 /* ExtractorClassInObject.m in Sources */,
+				300D9965170CC57500FFCB20 /* ExtractorPropertyOfObject.m in Sources */,
+				300D9967170CC57500FFCB20 /* ExtractorSimpleInstance.m in Sources */,
+				300D996B170CC5B000FFCB20 /* MainExtractor.m in Sources */,
+				302C91FE170E02110007ADAA /* ReplacementCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		300D9991170CC7DE00FFCB20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300D9992170CC7DE00FFCB20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		303122B21709A45500C71923 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -167,6 +345,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		300D9999170CC7DE00FFCB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtractVariableTests/ExtractVariableTests-Prefix.pch";
+				INFOPLIST_FILE = "ExtractVariableTests/ExtractVariableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		300D999A170CC7DE00FFCB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExtractVariableTests/ExtractVariableTests-Prefix.pch";
+				INFOPLIST_FILE = "ExtractVariableTests/ExtractVariableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		303122B61709A45500C71923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -228,12 +432,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExtractVariable/ExtractVariable-Prefix.pch";
 				INFOPLIST_FILE = "ExtractVariable/ExtractVariable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
@@ -241,18 +449,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExtractVariable/ExtractVariable-Prefix.pch";
 				INFOPLIST_FILE = "ExtractVariable/ExtractVariable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		300D9998170CC7DE00FFCB20 /* Build configuration list for PBXNativeTarget "ExtractVariableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300D9999170CC7DE00FFCB20 /* Debug */,
+				300D999A170CC7DE00FFCB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		303122A11709A45500C71923 /* Build configuration list for PBXProject "ExtractVariable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -269,6 +490,7 @@
 				303122BA1709A45500C71923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
